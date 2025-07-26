@@ -50,8 +50,8 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002317832654')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002505094282')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002614229011')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002403161861')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
@@ -74,18 +74,18 @@ MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled(environ.get('MAX_BTN', "True"), True)
 PORT = environ.get("PORT", "8080")
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ur_movie_group')
-SPRT_CHNL = environ.get('SPRT_CHNL', 'https://t.me/kissuxbots')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/kissuxbots')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/bot_making_tips')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AllMoviesRequestz')
+SPRT_CHNL = environ.get('SPRT_CHNL', 'https://t.me/DEVILxBACKUP')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BOTxUPDATE')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/BOTxUPDATE')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/kissuxbots')
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 𓆩•𝐊𝐢𝐬𝐬𝐮💞•𓆪')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/BOTxUPDATE')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 😈DEVIL')
 
 
 # ─── Display Configurations ─────────────────────────────
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ""))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'kissuhelp')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'XAEPM_CHAT')
 
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 IMDB = is_enabled(environ.get('IMDB', "True"), False)
@@ -96,7 +96,7 @@ SINGLE_BUTTON = is_enabled(environ.get('SINGLE_BUTTON', "True"), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
-REQ_GRP = environ.get('REQ_GRP', 'https://t.me/ur_movie_group')
+REQ_GRP = environ.get('REQ_GRP', 'https://t.me/AllMoviesRequestz')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
